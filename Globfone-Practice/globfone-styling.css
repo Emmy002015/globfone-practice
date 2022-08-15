@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}
+.logo1{
+    width: ;
+    height: 100%;
+}
+.content{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+}
+.menu-wrapper{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.menu{
+    display: ;
+}
+.menu-list{
+    display: ;
+}
