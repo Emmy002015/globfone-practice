@@ -48,3 +48,46 @@ body {
     padding-right: 20px;
     font-weight: 600;
 }
+.middle-wrapper {
+    /* display: flex; */
+}
+.middle {
+    padding: 10px;
+    margin: auto;
+    max-width: 100%;
+    /* display: flex; */
+}
+.mid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 --1rem;
+    /* max-width: 100%; */
+}
+.mi {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.ontent2-wrapper {
+    padding: 5px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.content2-left {
+    width: 50%;
+    padding-right: 5px;
+}
+.content2-right {
+    width: 50%;
+    padding-left: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
