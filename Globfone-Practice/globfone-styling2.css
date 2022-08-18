@@ -138,32 +138,31 @@ body {
     display: flex;
     /* display: flex; */
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2px;
+    /* margin-bottom: 1rem; */
+}
+.test2 {
+    padding: 3px;
+    /* width: 100%;
+    display: flex;
+    flex-wrap: wrap; */
 }
 .image2-1 {
-    /* padding: 7px;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-/* .image2-2 {
-    padding: 7px;
+    /* padding: 7px; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 1px;
 }
-.image2-3 {
-    padding: 7px;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.head-text1 {
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
 }
-.image2-4 {
-    padding: 7px;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.sub-text1 {
+    margin-bottom: 1.5rem;
+    font-family: poppins,sans-serif;
+}
